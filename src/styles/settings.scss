@@ -2,6 +2,8 @@ $color-light: #fff;
 $color-dark: #321064;
 
 $font-text: 'Lobster Two', sans-serif;
+$paragraph: 'Libre Franklin', sans-serif;
+
 
 .lobster-two-regular {
     font-family: "Lobster Two", sans-serif;
@@ -12,6 +14,13 @@ $font-text: 'Lobster Two', sans-serif;
   .lobster-two-bold {
     font-family: "Lobster Two", sans-serif;
     font-weight: 700;
+    font-style: normal;
+  }
+
+  .libre-franklin {
+    font-family: "Libre Franklin", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
     font-style: normal;
   }
 

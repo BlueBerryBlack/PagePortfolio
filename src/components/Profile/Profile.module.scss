@@ -1,0 +1,38 @@
+.column{
+    flex-shrink: 0;
+    width: calc(33% - 12px);
+
+}
+
+.cube {
+    border: 5px solid #680EEA; 
+    border-radius: 30px;
+    background-color: rgba(104, 14, 234, 0.2); 
+    min-height: 100px;
+    margin: 30, 30 auto;
+    padding:30px;
+  }
+
+  h6 {
+      padding-bottom: 30px;
+  }
+
+  p {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding:0;
+    margin: 0;
+    text-align: right;
+
+  }
+
+  @media (max-width: 767px) {
+    .column {
+      width: 100%;
+      margin: 0 ;
+    }
+  }
+
+
+

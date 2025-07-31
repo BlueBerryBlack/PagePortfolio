@@ -1,7 +1,28 @@
 @import './settings.scss';
-@import url('https://fonts.googleapis.com/css2?family=Bitter:ital,wght@1,200&family=Lobster+Two:wght@400;700&display=swap');
-h1, h2, h3, h4, h5, h6 {
+@import url('https://fonts.googleapis.com/css2?family=Bitter:ital,wght@1,200&family=Libre+Franklin:ital,wght@0,100..900;1,100..900&family=Lobster+Two:wght@400;700&display=swap');
+
+
+h1, h2, h3, h4, h5, h6, p {
   margin: 0;
   text-align: center
+}
+
+p {
+  font-family: $paragraph; // Libre Franklin z settings
+  font-size: 12px;
+  line-height: 1.6;
+  color: $color-light;
+  font-weight: 200
+}
+
+ h6 {
+  font-family: $paragraph; // Libre Franklin z settings
+  font-size: 14px;
+  line-height: 1.6;
+  color: $color-light;
+  font-weight: 700
 
 }
+
+
+

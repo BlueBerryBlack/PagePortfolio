@@ -1,8 +1,11 @@
+.footer{
+    background-color: #680EEA;
+}
+
 .text {
-    text-align: center;
     display: flex;
     justify-content: center; // horyzontalnie
     align-items: center; // wertykalnie
     min-height: 100px;
-    background-color: #680EEA;
+    margin: 0 auto; 
 }
