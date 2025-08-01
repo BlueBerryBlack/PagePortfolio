@@ -7,12 +7,22 @@ h1, h2, h3, h4, h5, h6, p {
   text-align: center
 }
 
+h1 {
+  font-size: 68px;
+}
+
+h2 {
+  font-size: 42px;
+  padding: 100px;
+}
+
 p {
   font-family: $paragraph; // Libre Franklin z settings
-  font-size: 12px;
+  font-size: 14px;
   line-height: 1.6;
   color: $color-light;
-  font-weight: 200
+  font-weight: 200;
+
 }
 
  h6 {
@@ -22,6 +32,17 @@ p {
   color: $color-light;
   font-weight: 700
 
+}
+
+h5 {
+  color: #680EEA;
+  font-size: 30px;
+  padding:40px
+}
+
+h4 {
+  font-size: 30px;
+  padding: 40px;
 }
 
 

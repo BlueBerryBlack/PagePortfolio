@@ -1,0 +1,12 @@
+@import '../../styles/settings.scss';
+
+.basic {
+    border: 5px solid $color-light;
+    border-radius: 30px;
+    background: none;
+    padding: 10px 20px;
+    text-align: center;
+    font-size: 12px;
+    font-family: $paragraph;    
+    //font-weight: 700
+}
