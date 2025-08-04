@@ -9,4 +9,8 @@
     font-size: 12px;
     font-family: $paragraph;    
     //font-weight: 700
+
+    &:hover {
+        background: $color-light;
+    }
 }

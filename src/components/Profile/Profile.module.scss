@@ -1,5 +1,6 @@
-  .columns {
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
+.columns {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 24px;
 }
