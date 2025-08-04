@@ -1,13 +1,15 @@
 .basic {
     background-color:  #680EEA;
-    max-width:100% ;
-    text-align: center;
-    margin: 0;
-    padding: 0;
+    position: relative;
+    left: 50%;
+    right: 50%;
+    margin-left: -50vw;
+    margin-right: -50vw;
+    width: 100vw; 
+    text-align: center;    
 }
 
 .content {
     padding:100px;
-    text-align: center;
 }
 

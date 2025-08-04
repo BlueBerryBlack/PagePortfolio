@@ -1,15 +1,22 @@
-.footer{
-    max-width: 100%;
-    margin:0;
+.fullWidthBackground {
+    position: relative;
+    left: 50%;
+    right: 50%;
+    margin-left: -50vw;
+    margin-right: -50vw;
+    width: 100vw; 
     background-color: #680EEA;
-}
+    padding: 20px 0;
+    color: white;
+  }
+  
 
 .text {
     display: flex;
     justify-content: center; // horyzontalnie
     align-items: center; // wertykalnie
     min-height: 100px;
-    margin: 0 auto; 
+
     font-size: 10px;
 
 }
