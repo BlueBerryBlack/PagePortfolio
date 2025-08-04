@@ -23,18 +23,18 @@ const Profile = () => {
                 </div>
                 <div className={styles.columns}>
                     <Cube 
-                        title="Many years of design experience"
-                        text="Running an original studio, conceptual and implementation work on complex functional and aesthetic projects"
+                        title="High visual sensitivity"
+                        text="Artistic education (ASP, visual advertising at OSSP), sense of composition, color and typography, which translates into interface design"
                     />
 
                     <Cube 
-                        title="The ability to create thoughtful solutions"
-                        text="Ability to analyze user needs, plan features, create concepts, and manage projects from brief to implementation"
+                        title="Knowledge of digital tools and technology basics"
+                        text="Work in Figma, Adobe, completed frontend course (HTML, CSS, JS basics), understanding the relationship between design and development"
                     />
 
                     <Cube 
-                        title="Experience in combining aesthetics with function"
-                        text="Creating intuitive, functional spatial layouts, which translates into the design of clear and useful interfaces."
+                        title="Willingness to work in a team and iteratively"
+                        text="Openness to feedback, ability to present ideas and work within the process."
                     />
                 </div>
 

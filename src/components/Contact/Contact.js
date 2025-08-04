@@ -4,13 +4,15 @@ import Button from '../Button/Button';
 const Contact = () => {
     return(
         <div className={styles.basic}>
-            <h2>Let's stay in touch</h2>
-            <Button text='send messege'>
+            <h2 >Let's stay in touch</h2>
+            <Button text='send messege' className={styles.media}>
             </Button>
             <div className={styles.content}>
-                <p>519 528 290</p>
-                <p>hello@seendigitaldesign.com</p>
-                <p>Kraków</p>
+             
+                    <p className={styles.padding}>519 528 290</p>
+                    <p className={styles.padding}>hello@seendigitaldesign.com</p>
+                    <p className={styles.padding}>Kraków</p>
+             
             </div>
         </div>
     );

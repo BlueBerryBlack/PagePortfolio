@@ -2,7 +2,7 @@ import styles from './AboutMe.module.scss';
 
 const AboutMe = () => {
     return (
-        <div>
+        <div className={styles.media}>
             <h2>Let's get to know each other.</h2>
             <h5>I'm Jagoda</h5>
             <div>

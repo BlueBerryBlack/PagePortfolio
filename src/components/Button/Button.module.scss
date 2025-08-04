@@ -1,7 +1,7 @@
 @import '../../styles/settings.scss';
 
 .basic {
-    border: 5px solid $color-light;
+    
     border-radius: 30px;
     background: none;
     padding: 10px 20px;
@@ -11,6 +11,16 @@
     //font-weight: 700
 
     &:hover {
-        background: $color-light;
+        background: $color-light; 
+    }
+    &:hover p {
+        color: #680EEA;
+        font-weight:400;
+      }
+}
+
+@media (max-width: 767px) {
+    .basic{
+        border: 3px solid $color-light;
     }
 }

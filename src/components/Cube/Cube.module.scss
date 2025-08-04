@@ -1,7 +1,9 @@
 .column {
-  flex: 1 1 calc(33.333% - 24px);
+  flex: 1 1 calc(33.333% - 34px);
   box-sizing: border-box;
   margin-bottom: 1rem;
+  height: max-content;
+  text-align: left;
 }
 
 .cube {
@@ -11,19 +13,33 @@
   min-height: 100px;
   margin: 0 auto; 
   padding: 30px;
+
+
+  &:hover {
+      background-color: #680EEA;
+  }
 }
 
 h6 {
   padding-bottom: 30px;
+  text-align: left;
 }
 
 p {
   padding: 0;
   margin: 0;
+  text-align: left;
 }
 
 @media (max-width: 767px) {
   .column {
-    width: 100%;
+    max-width: 100%;
+    margin: 20px;
+    padding: 0;
+  }
+  .cube {
+    max-width: 100%;
+    margin:0;
+    border: 3px solid #680EEA; 
   }
 }
