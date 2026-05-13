@@ -1,13 +1,13 @@
 import styles from './Cube.module.scss';
 
-const Cube = ({title,text}) => {
+const Cube = ({ title, text, className }) => {
     return (
-                <div className={styles.column}>
-                    <div className={styles.cube}>
-                        <h6>{title}</h6>
-                        <p>{text}</p>
-                    </div>
-                </div>
+        <div className={`${styles.column} ${className || ""}`}>
+            <div className={`${styles.cube} ${className || ""}`}>
+                <h6>{title}</h6>
+                <p>{text}</p>
+            </div>
+        </div>
     );
 };
 

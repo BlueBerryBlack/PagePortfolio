@@ -9,15 +9,17 @@ import Profile from './components/Profile/Profile';
 
 const App = () => {
   return (
-    <Container>
+    <>
       <Hero/>
-      <AboutMe/>
-      <Profile/>
-      <Skills/>
-      <Gallery/>
+      <Container>
+        <AboutMe/>
+        <Profile/>
+        <Skills/>
+        <Gallery/>
+      </Container>
       <Contact/>
       <Footer/>
-    </Container>
+    </>
   );
 };
 

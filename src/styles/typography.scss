@@ -7,12 +7,14 @@ h1, h2, h3, h4, h5, h6, p {
 }
 
 h1 {
-  font-size: 68px;
+  font-size: 78px;
+  font-weight: 400;
 }
 
 h2 {
   font-size: 42px;
   padding: 100px;
+  font-weight: 400;
 }
 
 p {
@@ -43,11 +45,11 @@ h4 {
 
 @media (max-width: 767px) {
   h1 {
-      font-size: 38px;
+      font-size: 32px;
   }
 
   h2 {
-    font-size: 30px;
+    font-size: 26px;
     padding:50px;
 }
 

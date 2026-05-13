@@ -1,10 +1,26 @@
 .basic {
-  text-align: center;
+  width: 100vw;           
+  margin: 0;
+  padding: 0;
+
+  background-image: url("https://i.postimg.cc/wvsf1f0P/tlo-Hero.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+
+  min-height: 100vh;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  overflow: hidden;
 }
 
-.par{
-    text-align: center;
-    display: flex;
-    justify-content: center; // horyzontalnie
-    align-items: center; // wertykalnie
+.par {
+  margin-top: 10px;
+  text-align: center;
+  font-size:14px;
 }
+

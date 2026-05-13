@@ -1,10 +1,22 @@
 .basic {
     max-width: 100%;
-    padding:0;
-    margin:0;
+    padding:30px;
+}
+
+.arrangement{
+    
+   
+ 
 }
 
 h4 {
     text-align: center;
     padding: 40px;
+}
+
+@media(max-width:767px){
+    .basic{
+        margin: 0 auto; 
+        max-width: 100%;
+    }
 }

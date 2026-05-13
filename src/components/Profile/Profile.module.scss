@@ -7,4 +7,12 @@ h2 {
   flex-wrap: wrap;
   justify-content: space-between;
   gap: 24px;
+  
+}
+
+@media (max-width:767px){
+  .columns{
+ 
+    justify-content: center;
+  }
 }

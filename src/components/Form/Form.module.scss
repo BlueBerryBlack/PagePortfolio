@@ -1,0 +1,35 @@
+@import '../../styles/settings.scss';
+
+
+
+.box{
+ 
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    margin: 0px auto;
+    max-width: 600px;
+    padding: 50px;
+   
+
+    input,
+    textarea {
+      width: 100%;
+      padding: 10px;
+      border-radius: 8px;
+      border: none;
+      font-size: 12px;
+      font-family: $paragraph;
+      padding:15px;
+    }
+  
+    textarea {
+      height: 100px;
+      resize: none;
+    
+    }
+  }

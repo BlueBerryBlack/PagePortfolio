@@ -3,17 +3,17 @@ import Cube from '../Cube/Cube';
 
 const Skills = () => {
     return(
-        <div>
+        <div className={styles.arrangement}>
             <h4>Skills</h4>
             <Cube className={styles.basic} text='SASS and LESS, FRONT-END, DESIGN THINKING, ATOMIC SYSTEM, UI DESIGN, GIT HUB, RWD '
             >
             </Cube>
             <h4>Technologies</h4>
-            <Cube className={styles.basic} text='REDUX, HTML, CSS 3, SCSS, GIT, REACT ROUTER, JS ES6, AJAX '
+            <Cube className={styles.basic} text='REDUX, HTML, CSS 3, SCSS, GIT, REACT ROUTER, JS ES6, AJAX, TAILWIND '
             >
             </Cube>
             <h4>Tools</h4>
-            <Cube className={styles.basic} text='FIGMA, ADOBE  AE, ADOBE ID, ADOBE PS, ADOBE PS, COREL-DRAW, SKETCH-UP, V-RAY'
+            <Cube className={styles.basic} text='FIGMA, ADOBE  AE, ADOBE ID, ADOBE PS, COREL-DRAW, SKETCH-UP, V-RAY'
             >
             </Cube>
         </div>
